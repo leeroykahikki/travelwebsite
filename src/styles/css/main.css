@@ -90,6 +90,7 @@
 .header-info .info-search {
   color: #2c2c2c;
   cursor: pointer;
+  padding-right: 10px;
 }
 
 .banner-inner {
@@ -104,7 +105,9 @@
   font-style: normal;
   font-weight: bold;
   line-height: 112px;
-  margin: 285px 0 0 135px;
+  max-width: 804px;
+  padding: 285px 0 0 135px;
+  width: 100%;
 }
 
 .container {
