@@ -3,6 +3,10 @@
 @import 'header';
 @import 'banner';
 
+body {
+  overflow: none;
+}
+
 .container {
   margin: 0 auto;
   max-width: $content-width;
