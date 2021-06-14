@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 .header {
-  margin-top: 39px;
+  margin: 39px 0 35px 0;
 }
 
 .header__wrapper {
@@ -91,6 +91,21 @@
 .header__info .info__search {
   color: #2C2C2C;
   cursor: pointer;
+}
+
+.banner__inner {
+  width: 100%;
+  height: 1000px;
+}
+
+.banner__title {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 112px;
+  color: #2C2C2C;
+  margin: 285px 0 0 135px;
 }
 
 .container {

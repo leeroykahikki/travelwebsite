@@ -1,11 +1,11 @@
 @import 'variables';
 @import 'fonts';
 @import 'header';
+@import 'banner';
 
 .container {
-  width: 100%;
-  max-width: 1680px;
-
-  padding: 0 15px;
   margin: 0 auto;
+  max-width: $content-width;
+  padding: 0 15px;
+  width: 100%;
 }
