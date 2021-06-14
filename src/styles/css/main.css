@@ -111,7 +111,7 @@
 }
 
 body {
-  overflow: none;
+  overflow: hidden;
 }
 
 .container {
