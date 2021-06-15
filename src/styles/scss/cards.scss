@@ -1,0 +1,37 @@
+.cards {
+  margin: 257px 0 180px;
+}
+
+.cards-inner {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 1394px;
+}
+
+.cards-item {
+  margin-right: 30px;
+
+  background: #f8f8f8;
+  
+  width: 326px;
+  height: 326px;
+
+  img {
+
+  }
+
+  .item-title {
+
+  }
+
+  .item-subtitle {
+
+  }
+}
+
+.cards-item:last-child {
+  margin-right: 0;
+}

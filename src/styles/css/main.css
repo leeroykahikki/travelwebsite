@@ -106,6 +106,7 @@
 .banner {
   position: relative;
   margin: 0 auto;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 1700px;
@@ -165,6 +166,7 @@
 
 .banner-options {
   display: flex;
+  display: none;
   position: absolute;
   top: 923px;
   left: 515px;
@@ -256,11 +258,37 @@
   content: "";
 }
 
+@media screen and (max-width: 1679px) {
+  .banner {
+    width: 100vw;
+  }
+}
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .banner-info {
     padding-left: 100px;
   }
 }
+.cards {
+  margin: 257px 0 180px;
+}
+
+.cards-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1394px;
+}
+
+.cards-item {
+  margin-right: 30px;
+  background: #f8f8f8;
+  width: 326px;
+  height: 326px;
+}
+.cards-item:last-child {
+  margin-right: 0;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
