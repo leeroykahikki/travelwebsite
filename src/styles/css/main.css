@@ -91,14 +91,19 @@
 .header-info .info-search {
   color: #2c2c2c;
   cursor: pointer;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
-.banner-inner {
+.banner {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-  width: 100%;
+  margin: 0 auto;
+  width: 1700px;
+}
+
+.banner-inner {
+  height: 1000px;
 }
 
 .banner-info {
@@ -215,6 +220,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1680px;
+  padding: 0 10px;
   width: 100%;
 }
 

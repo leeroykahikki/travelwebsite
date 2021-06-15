@@ -1,9 +1,13 @@
-.banner-inner {
+.banner {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px; // Подумать как сделать это в процентах
-  width: 100%;
-  // max-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: $content-width + 20px;
+}
+
+.banner-inner {
+  height: 1000px;
 }
 
 .banner-info {
