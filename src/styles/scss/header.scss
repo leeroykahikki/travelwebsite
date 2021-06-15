@@ -12,6 +12,16 @@
   align-items: center;
   display: flex;
 
+  .logo {
+    height: 45px;
+    width: 47px;
+  }
+
+  .title {
+    height: 23px;
+    width: 113px;
+  }
+
   a {
     margin-right: 15px;
   }
