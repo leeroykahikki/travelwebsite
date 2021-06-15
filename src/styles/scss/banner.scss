@@ -83,7 +83,6 @@
 
 .banner-options {
   display: flex;
-  display: none; // Убрать, чтобы появился
 
   position: absolute;
   top: 923px;
@@ -221,6 +220,10 @@
 @media screen and (max-width: 1679px) {
   .banner {
     width: 100vw;
+  }
+
+  .banner-options {
+    display: none;
   }
 }
 
