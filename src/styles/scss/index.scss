@@ -4,12 +4,12 @@
 @import 'banner';
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container {
   margin: 0 auto;
   max-width: $content-width;
-  padding: 0 15px;
+  // padding: 0 15px;
   width: 100%;
 }
