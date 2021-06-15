@@ -30,8 +30,9 @@
   height: 60px;
   justify-content: center;
   width: 200px;
+
   
-  .button-text {
+  a {
     color: #fff;
     cursor: pointer;
     font-family: $font-noto;
@@ -40,9 +41,10 @@
     font-weight: 500;
     line-height: 25px;
     text-align: center;
+    text-decoration: none;
   }
 
-  .button-text::after {
+  a::after {
     background-color: #fff;
   
     content: '';
@@ -53,8 +55,8 @@
     transition: opacity 0.1s linear;
     width: 100%;
   }
-
-  .button-text:hover::after {
+  
+  a:hover::after {
     opacity: 1;
   }
 }

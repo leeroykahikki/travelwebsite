@@ -124,7 +124,7 @@
   justify-content: center;
   width: 200px;
 }
-.banner-button .button-text {
+.banner-button a {
   color: #fff;
   cursor: pointer;
   font-family: "Noto Serif", serif;
@@ -133,8 +133,9 @@
   font-weight: 500;
   line-height: 25px;
   text-align: center;
+  text-decoration: none;
 }
-.banner-button .button-text::after {
+.banner-button a::after {
   background-color: #fff;
   content: "";
   display: block;
@@ -144,7 +145,7 @@
   transition: opacity 0.1s linear;
   width: 100%;
 }
-.banner-button .button-text:hover::after {
+.banner-button a:hover::after {
   opacity: 1;
 }
 
