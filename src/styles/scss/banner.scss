@@ -3,30 +3,33 @@
   background-size: cover;
   height: 1000px;
   margin: 0 auto;
+  position: relative;
   width: $content-width + 20px;
 }
 
 .banner-inner {
   height: 1000px;
+
+  .banner-info {
+    max-width: 804px;
+    padding: 285px 0 0 135px;
+    width: 100%;
+  }
+
+  .banner-title {
+    color: $primary-color;
+  
+    font-family: $font-noto;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 112px;
+  
+    margin-bottom: 50px;
+  }
 }
 
-.banner-info {
-  max-width: 804px;
-  padding: 285px 0 0 135px;
-  width: 100%;
-}
 
-.banner-title {
-  color: $primary-color;
-
-  font-family: $font-noto;
-  font-size: 84px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 112px;
-
-  margin-bottom: 50px;
-}
 
 .banner-button {
   align-items: center;
@@ -56,7 +59,6 @@
     content: '';
     display: block;
     height: 2px;
-    margin-top: 1px;
     opacity: 0;
     transition: opacity 0.1s linear;
     width: 100%;
@@ -69,6 +71,49 @@
 
 
 .banner-options {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 10px 30px 5px rgba(219, 200, 197, 0.2);
+  display: flex;
+  height: 154px;
+  justify-content: space-between;
+  left: 515px;
+  max-width: 1095px;
+  padding: 0 45px;
+  position: absolute;
+  top: 923px;
+  width: 100%;
+
+  .option-block {
+    height: 64px;
+    width: 240px;
+  }
+  
+  .option-title {
+    color: $gray-color;
+    font-family: $font-pt;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+
+  select {
+    appearance: none;
+    border: 0;
+    border-bottom: 1px solid $cream-color;
+    border-radius: 0 0 0.5px 0.5px;
+    color: $secondary-color;
+    font-family: $font-noto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 0 11px;
+    width: 100%;
+  }
+
 }
 
 .banner-switch {
@@ -82,7 +127,7 @@
   .switch-button {
     align-items: center;
     background: #fff;
-    border: 2px solid #f5ebe9;
+    border: 2px solid $cream-color;
     box-sizing: border-box;
     color: $secondary-color;
     cursor: pointer;
@@ -118,7 +163,7 @@
   }
 
   .switch-number::before {
-    background: #f5ebe9;
+    background: $cream-color;
 
     content: '';
     display: block;

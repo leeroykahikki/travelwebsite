@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons&display=swap");
 .header {
   margin: 39px 0 35px;
@@ -107,20 +108,19 @@
   background-size: cover;
   height: 1000px;
   margin: 0 auto;
+  position: relative;
   width: 1700px;
 }
 
 .banner-inner {
   height: 1000px;
 }
-
-.banner-info {
+.banner-inner .banner-info {
   max-width: 804px;
   padding: 285px 0 0 135px;
   width: 100%;
 }
-
-.banner-title {
+.banner-inner .banner-title {
   color: #2c2c2c;
   font-family: "Noto Serif", serif;
   font-size: 84px;
@@ -155,13 +155,54 @@
   content: "";
   display: block;
   height: 2px;
-  margin-top: 1px;
   opacity: 0;
   transition: opacity 0.1s linear;
   width: 100%;
 }
 .banner-button a:hover::after {
   opacity: 1;
+}
+
+.banner-options {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 10px 30px 5px rgba(219, 200, 197, 0.2);
+  display: flex;
+  height: 154px;
+  justify-content: space-between;
+  left: 515px;
+  max-width: 1095px;
+  padding: 0 45px;
+  position: absolute;
+  top: 923px;
+  width: 100%;
+}
+.banner-options .option-block {
+  height: 64px;
+  width: 240px;
+}
+.banner-options .option-title {
+  color: #a79997;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.banner-options select {
+  appearance: none;
+  border: 0;
+  border-bottom: 1px solid #f5ebe9;
+  border-radius: 0 0 0.5px 0.5px;
+  color: #ff715b;
+  font-family: "Noto Serif", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 0 0 11px;
+  width: 100%;
 }
 
 .banner-switch {
