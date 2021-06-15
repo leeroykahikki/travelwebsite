@@ -62,7 +62,8 @@
 }
 .header-info .info-icon {
   color: #2c2c2c;
-  margin-right: 10px;
+  font-size: 30px;
+  margin-right: 5px;
 }
 .header-info .info-title {
   align-items: center;
@@ -90,8 +91,7 @@
 }
 .header-info .info-search {
   color: #2c2c2c;
-  cursor: pointer;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 .banner {
