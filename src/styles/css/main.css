@@ -179,6 +179,7 @@
   height: 154px;
 }
 .banner-options .option-block {
+  margin-right: 60px;
   width: 240px;
   height: 64px;
 }
@@ -277,17 +278,53 @@
 
 .cards-inner {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  margin: 0 auto;
   width: 1394px;
 }
 
 .cards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background 1s linear;
+  transition: filter 0.5s linear;
   margin-right: 30px;
   background: #f8f8f8;
   width: 326px;
   height: 326px;
 }
+.cards-item img {
+  margin: 44px 0 24px;
+  width: 100px;
+  height: 100px;
+}
+.cards-item .item-title {
+  margin-bottom: 20px;
+  width: 250px;
+  text-align: center;
+  line-height: 33px;
+  color: #2c2c2c;
+  font-family: "Noto Serif", serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+}
+.cards-item .item-subtitle {
+  width: 250px;
+  text-align: center;
+  line-height: 26px;
+  color: #a79997;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cards-item:hover {
+  filter: drop-shadow(0 12px 30px rgba(200, 180, 180, 0.2));
+  background: #fff;
+}
+
 .cards-item:last-child {
   margin-right: 0;
 }
